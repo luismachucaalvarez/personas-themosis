@@ -1,0 +1,19 @@
+ip: 192.168.62.103
+memory: 2048
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: /var/www/html/personas2/proyecto-personas
+        to: /home/vagrant/code
+sites:
+    -
+        map: proyectopersonas.test
+        to: /home/vagrant/code/htdocs
+databases:
+    - homestead
+name: proyecto-personas
+hostname: proyecto-personas
