@@ -1,11 +1,24 @@
 
 
-<h3>Nueva Prueba Personas...</h3>
+<h3>Personas...</h3>
 
-<?php while ( have_posts() ) : the_post(); ?>
+<table>
+    <tr>
+        <th>Rut</th>
+        <th>Nombre</th>
+        <th>Correo</th>
+        <td>Dirección</td>
+    </tr>
+    <?php while ( have_posts() ) : the_post(); ?>
+    <tr>
+        <td><?php the_field('rut'); ?></td>
+        <td><?php the_field('nombre'); ?></td>
+        <td><?php the_field('correo'); ?></td>
+        <td><?php echo get_field('direccion')['address']; ?></td>
+    </tr>
 
-    <p>Nombre: <?php the_field('rut'); ?></p>
-    <p>Nombre: <?php the_field('nombre'); ?></p>
-    <p>Nombre: <?php the_field('correo'); ?></p>
 
-<?php endwhile; // end of the loop. ?>
+
+    <?php endwhile; // end of the loop. ?>
+</table>
+
