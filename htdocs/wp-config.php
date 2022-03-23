@@ -12,6 +12,8 @@ define('THEMOSIS_PUBLIC_DIR', 'htdocs');
 define('THEMOSIS_ROOT', realpath(__DIR__.'/../'));
 define('CONTENT_DIR', 'content');
 define('WP_CONTENT_DIR', realpath(THEMOSIS_ROOT.DS.THEMOSIS_PUBLIC_DIR.DS.CONTENT_DIR));
+define('SIMPLE_JWT_PRIVATE_KEY', 'base64:bh/WZ7CYdjKdBlBnrZ7wto212MzxZLY3KZvVy2dfnuE=');
+define('JWT_AUTH_CORS_ENABLE', true);
 
 /*----------------------------------------------------*/
 // Composer autoload

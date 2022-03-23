@@ -1,0 +1,12 @@
+Log created: 2022-03-19T07:33:11.113467000Z
+Process ID:  7352 (0x1cb8)
+Parent PID:  1 (0x1)
+Executable:  /usr/lib/virtualbox/VBoxHeadless
+Arg[0]: /usr/lib/virtualbox/VBoxHeadless
+Arg[1]: --comment
+Arg[2]: proyecto-personas
+Arg[3]: --startvm
+Arg[4]: eb278378-2ec5-4ceb-8eb4-f548ec48ae2f
+Arg[5]: --vrde
+Arg[6]: config
+AddRef: illegal refcnt=3221225469 state=2

@@ -1,0 +1,46 @@
+{
+  "name": "themosis-theme",
+  "version": "2.0.0",
+  "description": "Themosis framework boilerplate theme.",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress  --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress  --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "author": "Themosis",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/themosis/theme/issues"
+  },
+  "homepage": "https://github.com/themosis/theme#readme",
+  "dependencies": {
+    "@mapbox/mapbox-gl-geocoder": "^5.0.0",
+    "@vueuse/head": "^0.7.5",
+    "axios": "^0.26.1",
+    "core-js": "^3.8.3",
+    "mapbox-gl-vue": "^2.0.4",
+    "sass-loader": "^12.6.0",
+    "vue": "^3.2.13",
+    "vue-head": "^2.2.0",
+    "vue-mapbox-ts": "^0.7.2",
+    "vue-plugin-load-script": "^2.1.1",
+    "vue-router": "^4.0.14",
+    "webpack": "^5.70.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "laravel-mix": "^6.0.0-beta.17",
+    "resolve-url-loader": "2.3.1",
+    "sass": "^1.17.3",
+    "vue-template-compiler": "^2.6.10",
+    "webpack-cli": "^4.9.2"
+  }
+}

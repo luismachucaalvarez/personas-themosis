@@ -14,6 +14,10 @@ Route::get('/test', function(){
 
 use Themosis\Support\Facades\Route;
 
+Route::get('/', function () {
+    return view('welcome');
+});
+
 //Route::get('/', 'PageController@index');
 Route::get('archive', 'PageController@archive');
 Route::get('single', 'PageController@single');

@@ -42,7 +42,7 @@ $direccion = get_field('direccion');
         id: 'mapbox/streets-v11',
         tileSize: 512,
         zoomOffset: -1,
-        accessToken: 'pk.eyJ1IjoibHVpc21hY2h1Y2EiLCJhIjoiY2wweDFrcjU3MHJmaTNmcDV0aWkxMHd2biJ9.o6SlbU7RSt1GTeNknu5C4g'
+        //accessToken: 'pk.eyJ1IjoibHVpc21hY2h1Y2EiLCJhIjoiY2wweDFrcjU3MHJmaTNmcDV0aWkxMHd2biJ9.o6SlbU7RSt1GTeNknu5C4g'
     }).addTo(map);
     var marker = L.marker(['<?=$direccion['lat']?>', '<?=$direccion['lng']?>']).addTo(map);
 

@@ -1,7 +1,7 @@
 
 
 <h3>Personas...</h3>
-
+<div id="app"></div>
 <table>
     <tr>
         <th>Rut</th>
